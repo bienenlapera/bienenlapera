@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="es">
+    <meta name="description" content="¡100% Natural y popular!">
+    <meta property="og:title" content="En la Pera!"/>
+    <meta property="og:url" content="https://bienenlapera.github.io" />
+    <meta property="og:description" content="Sitio web de En la Pera. ¡Sin glifosato, ni fentanilo!">
+    <meta property="og:image" content="ogimage.png">
+    <meta property="og:image:width" content="530">
+    <meta property="og:image:height" content="249">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bienenlapera.github.io">
+    <title>En la Pera!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Arima">
+    <link rel="icon" type="image/x-icon" href="iconos/path4.png">
+    <link rel="canonical" href="https://bienenlapera.github.io">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- Marquesina -->
+    <header>
+        <div class="mensaje marquee">
+            <h1>Noticias tristópicas: 800.000 personas en la Marcha Antifascista y no hubo disturbios. || En cualquier momento vuelve la nube de mosquitos</h1>
+        </div>
+    </header>
+
+    <!-- Botonera -->
+    <aside>
+        <ul id="botonera">
+            <li class="hover-negro" id="somos" onclick="displayInfo('somos')">
+                <img class="icono" src="/iconos/logo_pera.svg" alt="">
+                <!-- <i class="fa-solid fa-users"></i> -->         
+            </li>
+            <li class="hover-rojo" id="prod" onclick="displayInfo('prod')">
+                <img class="icono" src="/iconos/logo_tube.svg" alt=""> <!--bag-shopping-->
+            </li>
+            <a href="/"><li class="hover-ama" id="escritos" onclick="displayInfo('escritos')">
+                <img class="icono" src="/iconos/logo_reflexiones.svg" alt="">
+            </li></a>
+            <li class="hover-gris" id="archivo" onclick="displayInfo('archivo')">
+                <img class="icono" src="iconos/archivo.svg" alt="">
+            </li>
+            <a   target="_blank" href=""><li class="hover-verde" id="what">
+                <img class="icono" src="iconos/logo_plata.svg" alt="">
+            </li></a>
+        </ul>
+    </aside>
+
+    <!-- Modal -->
+
+    <main>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="klose">×</span>
+                
+                <!-- Quiénes somos -->
+                
+                <div id="texto-somos" class="display-none texto-somos" >
+                    <h2>¡Natural y popular!</h2>
+                    <h4><em class="modal-cursiva">Sin glifosato ni fentanilo</em></h4>
+                    <div class="parrafo-somos">
+                        <img src="imagenes/zamba.svg" alt="Logo de En la Pera!">
+                        <p>Desde alguna esquina del AMBA Oriental levantamos la voz crítica y descasera contra la dictadura del algoritmo de Youtube. Con filosos análisis nos disponemos a volcar nuestros debates callejeros en videos que buscan cavar una nueva trichera esta batalla cultural. Con la inestimable financiación de los supermecados chinos y participación de expertos en cada materia. ¡Colaborá con nosotros difundiendo! Y si podés ¡Criptobirras! </p>
+                    </div>
+                </div>
+
+                <!-- Archivo de Memes -->
+                <div id="galeria-memes" class="display-none" >
+                    <h2>Archivo de Memes</h2>
+                    <h4><em class="modal-cursiva">Financiado y supervisado por los Supermercados chinos</em></h4>
+                    <div class="galería-memes">
+                        <div><img src="/memes/FB_IMG_16783033327127112.jpg" alt="">
+                        <p>Terrible</p>
+                    </div>
+                        
+                        <div><img src="/memes/FB_IMG_16801403020776440.jpg" alt=""><p>420</p></div>
+                        <div><img src="/memes/FB_IMG_16808071335122576.jpg" alt=""><p>Mercado laboral</p></div>
+                        <div><img src="/memes/FB_IMG_16815701877174217.jpg" alt=""><p>Woody</p></div>
+                        <div><img src="/memes/FB_IMG_16817405390788332.jpg" alt=""><p>Obvio papá!</p></div>
+                        <div><img src="/memes/FB_IMG_16826146755276324.jpg" alt=""><p>Netflix y Kanye West</p></div>
+                        <div><img src="/memes/FB_IMG_16861523366844994.jpg" alt=""><p>Comunicación asertiva</p></div>
+                        <div><img src="/memes/FB_IMG_16799451509885658.jpg" alt="">
+                            <p>Deporte olímpico</p></div>
+                        <div><img src="/memes/FB_IMG_16861871354349328.jpg" alt=""><p>Amsiedad</p></div>
+                        <div><img src="/memes/FB_IMG_16866107688948614.jpg" alt=""><p>Ojo ahí!</p></div>
+                        <div><img src="/memes/FB_IMG_16867716894459281.jpg" alt=""><p>Ecología</p></div>
+                        <div><img src="/memes/FB_IMG_16868698888429099.jpg" alt=""><p>No veo lógicas en su falla</p></div>
+                        <div><img src="/memes/FB_IMG_16887442458417582.jpg" alt=""><p>Fitness</p></div>
+                        <div><img src="/memes/FB_IMG_16908204315250835.jpg" alt=""><p>Para vos!</p></div>
+                        <div><img src="/memes/FB_IMG_16919619762624079.jpg" alt=""><p>Filosofía</p></div>
+                        <div><img src="/memes/FB_IMG_16952262361941276.jpg" alt=""><p>Especulación bíblica</p></div>
+                        <div><img src="/memes/FB_IMG_16984276064080601.jpg" alt=""><p>Académico</p></div>
+                        <div><img src="/memes/FB_IMG_16987384917684734.jpg" alt=""><p>Así hicimos la página</p></div>
+                        <div><img src="/memes/FB_IMG_16988671342470870.jpg" alt=""><p>Modas</p></div>
+                        <div><img src="/memes/FB_IMG_17014865468574116.jpg" alt=""><p>Contracara</p></div>
+                    </div>
+                </div>
+
+                <!-- Productos -->
+
+                <div id="slider" class="display-none">
+                    <h2 class="titulo-prod" >Estos son nuestros videos*</h2>
+                    <h3 style="text-align: right; font-size: 12px; padding-bottom: 5px; color: black;">*100% Natural y popular. Sin glifosato ni fentanilo.</h3>
+                    <div class="slider-container respo" >
+                        <div class="slider">
+                                <div class="slider-prod">
+                                    <a href="https://youtu.be/7B8zUMVMdjI" target="_blank"><img class="slider-img" src="imagenes/fdf.png" alt=""></a>
+                                    <h4>Tristopía</h4>
+                                    <h5><b>18' Año: 2024</b> Por: El Conurbanauta</h5>
+                                </div>
+                                <div class="slider-prod">
+                                    <a href="https://youtu.be/FP22KB7-9RA" target="_blank"><img class="slider-img" src="imagenes/MIANA2.png" alt="Duelo de Fachos"></a>
+                                    <h4>Cuneo Vs Tenembaum: Duelo de Fachos</h4>
+                                    <h5><b>Documental:</b> 50' aprox.</h5>
+                                </div>
+                                <div class="slider-prod">
+                                    <a href="https://youtu.be/s9ssTO1S3cU" target="_blank"><img class="slider-img" src="imagenes/miniatura_after.svg" alt="Libertarios y propietarianos"></a>
+                                    <h4>Libertarios y propietarianos</h4>
+                                    <h5><b>Batalla cultural:</b> 5' aprox.</h5>
+                                </div>
+
+                                <div class="slider-prod">
+                                    <a href="https://youtu.be/aiLz71CSgZY" target="_blank"><img class="slider-img" src="imagenes/miniaturas1.png" alt="Norman Whisky y el colonialismo argentino"></a>
+                                    <h4>Norman Whisky y el colonialismo argentino</h4>
+                                    <h5><b>Análisis:</b> 20' aprox.</h5>
+                                </div>
+                                <div class="slider-prod">
+                                    <a href="https://youtu.be/ek5M36dEO48" target="_blank"><img class="slider-img" src="imagenes/miniatuxra1.png" alt="La Selección Comercial de Fútbol"></a>
+                                    <h4>Criticamos a la Selección Comercial y nos tiraron con de todo</h4>
+                                    <h5><b>Crítica:</b>Como 15'.
+                                    </h5>
+                                </div>
+                                <a href="https://www.youtube.com/@bienenlapera/videos" target="_blank"><div class="slider-prod ver-mas">
+                                    <img src="/iconos/logo_tube.svg" alt="">
+                                </div></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+
+    <!-- Fin del Modal-->
+    <!-- Marquee -->
+
+    <!--Fin del Marquee-->
+    <section>
+        <div class="logo" id="logo">
+            <img src="iconos/logoides.svg" alt="">
+        </div>
+    <!--  Formulario   -->
+        <div class="div-reflex">
+            <h2>Reflexiones</h2>
+            <h3>¿Por qué Youtube no difundió nuestro último video?</h2>
+            <img src="miniaturas/haiti.png" alt="">
+            </div>
+    <!-- Fin Formulario -->
+    </section>
+
+    <article>
+        <h2>Predicciones</h2>
+        <img src="imagenes/zrpen.png" alt="">
+    </article>
+
+    <footer>
+        <h2>En la Pera! <b> -2025-</b></h2>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
